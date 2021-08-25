@@ -41,7 +41,7 @@ Funcionalidade: Carroça
         E a entrada do passageiro "Diana"
         Quando o passageiro "Sandra" tentar subir a bordo
         Então ele não deverá ser adicionada à lista de passageiros
-
+    # Cenário 1
     Cenário: A carroça tem pessoas doentes e deverá fazer quarentena
         Dada a entrada do passageiro "Sergio"
         E a entrada do passageiro "Diana"
@@ -55,7 +55,7 @@ Funcionalidade: Carroça
         Quando me perguntarem se devemos fazer quarentena
         Então a resposta deverá ser Não
 
-
+    ##2
     Cenário: Contagem do total de refeições
         Dada a entrada do passageiro "Sergio"
         E a entrada do passageiro "Simone"
